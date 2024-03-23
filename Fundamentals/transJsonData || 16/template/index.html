@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>{{$TITLE$}}</title>
+ <style>
+  * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+  }
+
+  ul li {
+   display: inline-block;
+   list-style-type: none
+  }
+
+  html {
+   scroll-behavior: smooth
+  }
+
+  body {
+   /* margin: 5px 0 */
+  }
+
+  header {
+   padding: 20px 200px;
+   position: relative;
+   /* margin: 20px 0; */
+   box-shadow: 0 1px 2px 1px #F3F3F3;
+   ;
+
+  }
+
+  header>nav>ul {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap
+  }
+
+  header>nav>ul>li>a {
+   text-decoration: none;
+   color: #000;
+   cursor: pointer;
+  }
+
+  main {
+   padding: 20px 200px;
+  }
+
+  main>.content-cover>.product {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 30px;
+   flex-direction: row;
+   margin: 10px 0;
+   padding: 20px;
+   border: 1px solid #000;
+   border-radius: 10px
+  }
+
+  main>.content-cover>.product>.product-img-cover {
+   width: 30%;
+   height: 200px;
+   position: relative;
+  }
+
+  main>.content-cover>.product>.product-img-cover>img {
+   width: 100%;
+   height: 100%;
+  }
+
+  main>.content-cover>.product>.product-desc-cover {
+   width: 70%;
+  }
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc-header {
+   margin-bottom: 10px;
+  }
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc-body {
+   margin-bottom: 50px;
+  }
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc-body {
+   margin-bottom: 10px;
+  }
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc-body>ul>li {
+   display: block;
+  }
+
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc-footer>button {
+   padding: 8px;
+   border-radius: 3px;
+  }
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc-footer>button.buy {
+   background: #E5E5E5;
+  }
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc-footer>button.more {
+   background: #632EFF;
+   margin: 0 8px;
+  }
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc-footer>button.more>a {
+   color: #fff;
+   text-decoration: none;
+  }
+
+  main>.content-cover>.product>.product-desc-cover>.product-desc {
+   margin-bottom: 18px;
+  }
+ </style>
+</head>
+
+<body>
+
+ <header>
+  <nav>
+   <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/products">Products</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+   </ul>
+  </nav>
+ </header>
+ <main>
+
+  <div class="content-cover">{{$CONTENT$}}</div>
+
+ </main>
+ <footer>
+
+ </footer>
+
+
+<script>
+ (function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
+</script>
+</body>
+
+</html>

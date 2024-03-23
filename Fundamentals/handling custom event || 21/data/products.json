@@ -1,0 +1,39 @@
+[
+ {
+  "id": 12345,
+  "name": "Apple 13",
+  "prize": "30000",
+  "imageSrc": "jzkzks.pmg",
+  "model": "GHP-12345",
+  "color": "Red",
+  "desc": "The best Apple Iphone Apple 13. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ea, necessitatibus quaerat pariatur aliquid. Impedit porro suscipit officiis quam est voluptatibus neque deleniti sint? Dolor culpa at quod labore iure."
+ },
+ {
+  "id": 12335,
+  "name": "Apple 14",
+  "prize": "30000",
+  "imageSrc": "jzkzks.pmg",
+  "model": "GHP-12335",
+  "color": "Green",
+  "desc": "The best Apple Iphone Apple 14. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ea, necessitatibus quaerat pariatur aliquid. Impedit porro suscipit officiis quam est voluptatibus neque deleniti sint? Dolor culpa at quod labore iure."
+ },
+ {
+  "id": 12343,
+  "name": "Apple 15",
+  "prize": "30000",
+  "imageSrc": "jzkzks.pmg",
+  "model": "GHP-12343",
+  "color": "Purple",
+  "desc": "The best Apple Iphone Apple 15. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ea, necessitatibus quaerat pariatur aliquid. Impedit porro suscipit officiis quam est voluptatibus neque deleniti sint? Dolor culpa at quod labore iure."
+
+ },
+ {
+  "id": 12341,
+  "name": "Apple 16",
+  "prize": "30000$",
+  "imageSrc": "jzkzks.pmg",
+  "model": "GHP-12341",
+  "color": "Yellow",
+  "desc": "The best Apple Iphone Apple 16. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ea, necessitatibus quaerat pariatur aliquid. Impedit porro suscipit officiis quam est voluptatibus neque deleniti sint? Dolor culpa at quod labore iure."
+ }
+]

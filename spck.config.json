@@ -1,0 +1,7 @@
+{
+  "run": {
+    "type": "file",
+    "file": "Fundamentals/transJsonData || 16/template/index.html",
+    "ignoreCurrent": true
+  }
+}

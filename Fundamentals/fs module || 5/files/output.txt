@@ -1,0 +1,2 @@
+Datas have been read from input.txt and written here:  
+ Data Created Sat Dec 30 2023 08:03:50 GMT+0600 (Bangladesh Standard Time)

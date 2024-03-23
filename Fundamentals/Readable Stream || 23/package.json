@@ -1,0 +1,19 @@
+{
+  "name": "testing-server",
+  "version": "1.0.0",
+  "description": "This is just for testing purpose. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "test",
+    "first"
+  ],
+  "author": "Muhammad Afaeid Sarkar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

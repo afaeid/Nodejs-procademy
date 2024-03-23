@@ -1,0 +1,30 @@
+ <div class="product" id="{{$PRODUCT_ID$}}">
+  <div class="product-img-cover">
+   <img src="{{$PRODUCT_IMG_SRC$}}">
+  </div>
+  <div class="product-desc-cover">
+
+   <div class="product-desc-header">
+    <h2>{{$PRODUCT_NAME$}}</h2>
+   </div>
+
+   <div class="product-desc-body">
+    <ul>
+     <li><b>ID: </b>{{$PRODUCT_ID$}}</li>
+     <li><b>Prize: </b>$ {{$PRODUCT_PRIZE$}}</li>
+     <li><b>Model: </b>{{$PRODUCT_MODEL$}}</li>
+     <li><b>Color: </b>{{$PRODUCT_COLOR$}}</li>
+     <li><b>ROM: </b>{{$PRODUCT_ROM$}}</li>
+
+    </ul>
+   </div>
+
+   <div class="product-desc-footer">
+    <button class="buy">Buy now</button>
+    <button class="more">
+     <a href="/products?id={{$PRODUCT_ID$}}">See details</a>
+    </button>
+   </div>
+
+  </div>
+ </div>

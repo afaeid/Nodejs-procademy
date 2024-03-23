@@ -1,0 +1,1 @@
+Data has taken from input.txt: Hello! I'm going to be accessed through fs module
